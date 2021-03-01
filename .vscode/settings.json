@@ -1,0 +1,17 @@
+{
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.quiet": true,
+  "eslint.lintTask.enable": true,
+  "eslint.validate": [
+    { "language": "javascript", "autoFix": true },
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "eslint.codeAction.showDocumentation": {
+
+    "enable": true
+  },
+  "eslint.run": "onSave",
+  "eslint.autoFixOnSave": true
+}
