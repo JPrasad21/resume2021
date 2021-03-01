@@ -1,8 +1,8 @@
 import React from 'react';
-
+// "build": "react-scripts build",
 function Resume () {
   return (
-    <div className="App">
+    <div className="p-12 text-white">
       My resume
     </div>
   );
