@@ -1,3 +1,8 @@
+# resume2021
+Why to depend others if we can build our own resume in the way we need. 
+
+This project is built using reactJs with resume details added in a .JSON file to make it completely customisable.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
