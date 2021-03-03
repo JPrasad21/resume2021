@@ -1,17 +1,27 @@
 import React from 'react';
-
+import styles from './resume.module.scss';
 function Resume () {
   return (
-    <div>
-      <div className="bg-secondary2 h-60 overflow-visible">
-        <div className="relative top-5 bg-white h-64 px-5 z-10 grid grid-cols-4">
-          <div className="m-5 mr-0 border-primary border col-span-1">Image</div>
-          <div className="m-5 col-span-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad non dignissimos qui cum, quis perferendis explicabo fugit veritatis possimus corrupti in quos obcaecati cupiditate quisquam officia molestiae deleniti iure provident!</div>
+    <div className={styles.resumeWrapper}>
+      <div className="bg-secondary2 h-36 overflow-visible">
+      </div>
+      <div className={`${styles.headerSection} bg-white h-72 px-5 z-10 grid grid-cols-4`}>
+        <div className="col-span-1">
+          <img src="/assets/Prasad_Photo_2.jpg" alt="prasad"/>
+        </div>
+        <div className="pl-5 col-span-3 grid">
+          <div className="border-b border-secondary2">
+            <h1 className="text-primary text-4xl mb-3 font-bold">Prasad J</h1>
+            <h3 className="text-primary text-xl pb-3">UI Developer</h3>
+          </div>
+          <div className="pt-3">
+            <p>Passionate UI Developer with 3+ years of experience in web development using JavaScript frameworks Angular 8+, ReactJs and nextJs. Adding some more dummy text to make it to four lines. Need more content</p>
+          </div>
         </div>
       </div>
-      <div className="h-60 grid grid-cols-4">
-        <div className="bg-primary text-white pt-20 px-5 col-span-1">Personal Details</div>
-        <div className="bg-white text-primary pt-20 px-5 col-span-3">Career Details</div>
+      <div className={styles.mainSection}>
+        <div className="bg-primary text-white pl-5 pt-36">Personal Details</div>
+        <div className="bg-white text-primary pl-5 pt-36">Career Details</div>
       </div>
     </div>
   );
