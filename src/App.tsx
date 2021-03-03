@@ -8,7 +8,7 @@ function App () {
   const divRef = React.useRef<HTMLDivElement>(null);
   return (
     <div className="App bg-outer">
-      <ReactToPdf targetRef={divRef} filename="div-blue.pdf">
+      <ReactToPdf targetRef={divRef} filename="Prasad-Resume.pdf">
         {({ toPdf }) => (
             <button onClick={toPdf}>Generate pdf</button>
         )}
