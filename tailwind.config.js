@@ -8,7 +8,8 @@ module.exports = {
       secondary2: '#fab95b',
       outer: '#282c34',
       white: '#fff',
-      black: '#000'
+      black: '#000',
+      purple: '#663399'
     },
     extend: {}
   },

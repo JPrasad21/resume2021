@@ -1,0 +1,24 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-blend-mode: color;
+  .exportBtn {
+    background: #1183ca;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 14px;
+  }
+}
+.resumeContainer {
+  margin: 30px auto;
+  box-sizing: border-box;
+  width: 8.3in;
+  height: 11.7in;
+  background-color: rgb(255, 255, 255);
+}

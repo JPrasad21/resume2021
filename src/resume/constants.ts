@@ -1,11 +1,11 @@
 export const RESUME = {
   Intro: {
     Role: 'Full Stack Developer',
-    Description: 'Software Developer with 3 years of experience in the field of web development using JavaScript frameworks (Angular 8+, ReactJs, nextJs). A developer who likes to work in a challenging environment to bring out the best solutions.'
+    Description: 'Full Stack Developer with 3 years of experience in the field of web development using JavaScript frameworks (Angular 8+, ReactJs, nextJs). A developer who likes to work in a challenging environment to bring out the best solutions.'
   },
   MyDetails: {
     Name: 'Prasad J',
-    Image: '/assets/Prasad_Photo_2.jpg'
+    Image: '/assets/Prasad_Photo.jpg'
   },
   Contact: [
     {
@@ -20,8 +20,8 @@ export const RESUME = {
     },
     {
       Image: '/assets/location.png',
-      Label: 'Address',
-      Value: ['B4, Shruthi Apartments, 11th Avenue, Ashok Nagar,', 'Chennai-600 083']
+      Label: 'Location',
+      Value: ['Chennai, Tamil Nadu']
     }
   ],
   Skills: [
@@ -56,7 +56,7 @@ export const RESUME = {
         'Worked in Table AI feature to Identify and extract essential information from table using cell, row and column level understanding',
         'Developed workflow management to keep track of the document\'s status and assigned user.',
         'Worked in product stabilisation and performance improvement to seamlessly load and render documents.',
-        'Worked in developing the business/corporate website using NextJs',
+        'Worked in developing the enterprise website using NextJs',
         'Optimised queue management system to reduce the failures during document ingestion and monitor the messages in the queue.'
       ]
     },
