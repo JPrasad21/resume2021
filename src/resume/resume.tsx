@@ -36,7 +36,7 @@ function Resume () {
               </div>
             ))}
           </div>
-          <div className="bg-secondary2 my-6" style={{ height: '1px' }}></div>
+          <div className="bg-secondary2 my-4" style={{ height: '1px' }}></div>
           <div className="">
             <h3 className="font-bold">SKILLS</h3>
             {RESUME.Skills.map(x => (
@@ -45,7 +45,7 @@ function Resume () {
               </ul>
             ))}
           </div>
-          <div className="bg-secondary2 my-6" style={{ height: '1px' }}></div>
+          <div className="bg-secondary2 my-4" style={{ height: '1px' }}></div>
           <div className="">
             <h3 className="font-bold">EDUCATION</h3>
             {RESUME.Education.map(x => (
@@ -57,6 +57,11 @@ function Resume () {
               </div>
             ))}
           </div>
+          <div className="bg-secondary2 mt-2 mb-1" style={{ height: '1px' }}></div>
+          <a className="flex justify-center items-center" href="https://github.com/JPrasad21/" target="_blank" rel="noreferrer">
+              <img src="/assets/github (1).png" alt="github"/>
+              <p className="ml-1 text-xs">JPrasad21</p>
+          </a>
         </div>
         <div className="bg-white px-5 pr-10 pt-36">
           <div className="mt-2 pt-3 border-t">
@@ -75,6 +80,22 @@ function Resume () {
                     <li className="text-sm text-black">{y}</li>
                   </ul>
                 ))}
+              </div>
+            ))}
+          </div>
+          <div className="bg-primary my-4" style={{ height: '1px' }}></div>
+          <div className="">
+            <h3 className="font-bold text-primary">OTHER PROJECTS</h3>
+            {RESUME.OtherProjects.map(x => (
+              <div key={x.Name} className="mt-4">
+                <p className="text-secondary2 font-bold">{x.Name}</p>
+                <p className="text-sm">
+                  {x.Description}
+                  {x.link &&
+                    <a className="text-primary text-sm" href={x.link} target="_blank" rel="noreferrer">
+                      https://prasad-resume-2021.surge.sh/
+                    </a>}
+                </p>
               </div>
             ))}
           </div>

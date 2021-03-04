@@ -1,7 +1,7 @@
 export const RESUME = {
   Intro: {
-    Role: 'UI Developer',
-    Description: 'Passionate UI Developer with 3+ years of experience in web development using JavaScript frameworks Angular 8+, ReactJs and nextJs. Adding some more dummy text to make it to four lines. Need more content'
+    Role: 'Full Stack Developer',
+    Description: 'Software Developer with 3 years of experience in the field of web development using JavaScript frameworks (Angular 8+, ReactJs, nextJs). A developer who likes to work in a challenging environment to bring out the best solutions.'
   },
   MyDetails: {
     Name: 'Prasad J',
@@ -11,7 +11,7 @@ export const RESUME = {
     {
       Image: '/assets/phone.png',
       Label: 'Phone Number',
-      Value: ['97890 45593']
+      Value: ['(+91) 97890 45593']
     },
     {
       Image: '/assets/email.png',
@@ -27,7 +27,7 @@ export const RESUME = {
   Skills: [
     'JavaScript',
     'Angular 8+',
-    'NextJs and ReactJs',
+    'ReactJs and NextJs',
     'HTML5, CSS3, JQuery',
     'Python',
     'PostgreSQL'
@@ -44,12 +44,6 @@ export const RESUME = {
       InstituteName: 'Sri Ahobila Math Oriental Higher Secondary School',
       CourseName: '12th standard',
       Grade: 'PERCENTAGE: 95.58%'
-    },
-    {
-      Period: 'May 2012',
-      InstituteName: 'Sri Mangichand Bhandari Jain Higher Secondary School',
-      CourseName: '10th standard',
-      Grade: 'PERCENTAGE: 90.40%'
     }
   ],
   Work: [
@@ -59,10 +53,11 @@ export const RESUME = {
       Location: 'Chennai',
       RoleName: 'AI Engineer',
       Highlights: [
-        'Worked in R&I team to build web applications for Drones and ChatBot creator platform.',
-        '.Net for bla bla',
-        'Angular 8+ for bla bla',
-        'NextJs for blabla'
+        'Worked in Table AI feature to Identify and extract essential information from table using cell, row and column level understanding',
+        'Developed workflow management to keep track of the document\'s status and assigned user.',
+        'Worked in product stabilisation and performance improvement to seamlessly load and render documents.',
+        'Worked in developing the business/corporate website using NextJs',
+        'Optimised queue management system to reduce the failures during document ingestion and monitor the messages in the queue.'
       ]
     },
     {
@@ -71,10 +66,31 @@ export const RESUME = {
       Location: 'Mumbai',
       RoleName: 'Assistant System Engineer',
       Highlights: [
-        'Worked in R&I team to build web applications for Drones and ChatBot creator platform.',
-        'Python flask frame work for drones',
-        'Angular 7 for ChatBot creator platform'
+        'Worked as an R&I Developer in CTO Incubation team to build web applications for Drones and ChatBot creator platform.',
+        'Developed UI platform to create, train and interact with AI-powered Chatbots using Angular 7.',
+        'Developed backend API\'s to create hierarchical model for drones to identify objects in a warehouse using Python flask framework.'
       ]
+    }
+  ],
+  OtherProjects: [
+    {
+      Name: 'React Flow',
+      Description: 'Created a pipeline builder to automate the workflow using react-flow library.',
+      link: null
+    },
+    {
+      Name: 'Vizhithiru App',
+      Description: 'Created an application for logging complaints and escalating the same to higher officials.',
+      link: null
+    },
+    {
+      Name: 'Resume2021',
+      Description: 'Created this resume using reactJs and can be viewed at ',
+      link: 'https://prasad-resume-2021.surge.sh/'
     }
   ]
 };
+// {
+//   Name: 'Pitchworks Club',
+//   Description: 'Created a platform to connect startups and investors for efficient fund-raising using reactJs.'
+// },
