@@ -11,30 +11,44 @@ export const RESUME = {
     {
       Image: '/assets/phone.png',
       Label: 'Phone Number',
-      Value: ['(+91) 97890 45593']
+      Value: '(+91) 97890 45593'
     },
     {
       Image: '/assets/email.png',
       Label: 'Email',
-      Value: ['raghav21prasad@gmail.com']
+      Value: 'raghav21prasad@gmail.com'
     },
     {
       Image: '/assets/location.png',
       Label: 'Location',
-      Value: ['Chennai, Tamil Nadu']
+      Value: 'Chennai, Tamil Nadu'
+    }
+  ],
+  Connect: [
+    {
+      Image: '/assets/github.png',
+      Link: 'https://github.com/JPrasad21/',
+      Value: 'JPrasad21'
+    },
+    {
+      Image: '/assets/linkedin.png',
+      Link: 'https://www.linkedin.com/in/JPrasad21/',
+      Value: 'JPrasad21'
     }
   ],
   Skills: [
     'JavaScript',
+    'TypeScript',
     'Angular 8+',
     'ReactJs and NextJs',
     'HTML5, CSS3, JQuery',
+    'C#',
     'Python',
     'PostgreSQL'
   ],
   Education: [
     {
-      Period: '2014-2018',
+      Period: 'June 2014 - May 2018',
       InstituteName: 'Rajalakshmi Engineering College',
       CourseName: 'Bachelor\'s of Engineering in ECE',
       Grade: 'CGPA: 7.8/10'
@@ -53,11 +67,11 @@ export const RESUME = {
       Location: 'Chennai',
       RoleName: 'AI Engineer',
       Highlights: [
-        'Worked in Table AI feature to Identify and extract essential information from table using cell, row and column level understanding',
-        'Developed workflow management to keep track of the document\'s status and assigned user.',
-        'Worked in product stabilisation and performance improvement to seamlessly load and render documents.',
-        'Worked in developing the enterprise website using NextJs',
-        'Optimised queue management system to reduce the failures during document ingestion and monitor the messages in the queue.'
+        'Worked in Table AI feature to Identify and extract essential information from table using Angular and JQuery',
+        'Developed workflow management to keep track of the document\'s status and assigned user using Angular',
+        'Improved product stability and performance to seamlessly load and render documents to provide better user experience',
+        'Worked in developing the SEO friendly enterprise website using NextJs to get maximum reach in marketing campaign',
+        'Optimised queue management system to minimise the failures during document ingestion using Angular and C#'
       ]
     },
     {
@@ -66,26 +80,29 @@ export const RESUME = {
       Location: 'Mumbai',
       RoleName: 'Assistant System Engineer',
       Highlights: [
-        'Worked as an R&I Developer in CTO Incubation team to build web applications for Drones and ChatBot creator platform.',
-        'Developed UI platform to create, train and interact with AI-powered Chatbots using Angular 7.',
-        'Developed backend API\'s to create hierarchical model for drones to identify objects in a warehouse using Python flask framework.'
+        'Worked as an R&I Developer in CTO Incubation team to build web applications for Drones and ChatBot creator platform',
+        'Developed UI platform to create, train and interact with AI-powered Chatbots using Angular 7',
+        'Developed backend API\'s to create hierarchical model for drones to identify objects in a warehouse using Python flask framework'
       ]
     }
   ],
   OtherProjects: [
     {
       Name: 'React Flow',
-      Description: 'Created a pipeline builder to automate the workflow using react-flow library.',
+      Period: 'Nov 2020 - December 2020',
+      Description: 'Created a drag & drop pipeline builder using ReactJs with the help of react-flow package to automate the data workflow',
       link: null
     },
     {
       Name: 'Vizhithiru App',
-      Description: 'Created an application for logging complaints and escalating the same to higher officials.',
+      Period: 'December 2020 - February 2021',
+      Description: 'Created an application for logging and escalating complaints in ReactJs to notify the election department about the common issues',
       link: null
     },
     {
       Name: 'Resume2021',
-      Description: 'Created this resume using reactJs and can be viewed at ',
+      Period: 'March 2021',
+      Description: 'Created this resume using ReactJs supporting export PDF feature. This can be viewed at ',
       link: 'https://prasad-resume-2021.surge.sh/'
     }
   ]
