@@ -24,8 +24,8 @@ function App () {
           scale: a4Width / resumeWidth
         },
         callback: function (pdf) {
-          // pdf.save('prasad-resume-2021.pdf');
-          window.open(pdf.output('bloburl') as any); // use for debugging
+          pdf.save('prasad-resume-2021.pdf');
+          // window.open(pdf.output('bloburl') as any); // use for debugging
         }
       });
     });

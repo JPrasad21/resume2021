@@ -25,21 +25,20 @@ function Resume () {
             <div className="flex justify-between">
               {RESUME.Connect.map((x) => (
                 <a
-                key={x.Link}
-                className="flex justify-center items-center "
-                href={x.Link}
-                target="_blank"
-                rel="noreferrer"
-              >
+                  key={x.Link}
+                  className="flex justify-center items-center "
+                  href={x.Link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img className="w-4 mr-3" src={x.Image} alt={x.Value} />
                   <p className="text-sm text-primary">{x.Value}</p>
                 </a>
               ))}
             </div>
-
           </div>
         </div>
-        <div className="bg-primary my-4" style={{ height: '1px' }}></div>
+        <div className="bg-primary my-4" style={{ height: '2px' }}></div>
         <div className="">
           <p>{RESUME.Intro.Description}</p>
         </div>
@@ -49,12 +48,14 @@ function Resume () {
           <div className="">
             <h3 className="font-bold">SKILLS</h3>
             <ul className="mt-3 list-disc pl-6">
-            {RESUME.Skills.map((x) => (
-                <li key={x} className="text-white opacity-80 my-2 pl-1">{x}</li>
-            ))}
-                </ul>
+              {RESUME.Skills.map((x) => (
+                <li key={x} className="text-white opacity-80 my-2 pl-1">
+                  {x}
+                </li>
+              ))}
+            </ul>
           </div>
-          <div className="bg-secondary2 my-4" style={{ height: '1px' }}></div>
+          <div className="bg-secondary2 my-4" style={{ height: '2px' }}></div>
           <div className="">
             <h3 className="font-bold">EDUCATION</h3>
             {RESUME.Education.map((x) => (
@@ -66,9 +67,21 @@ function Resume () {
               </div>
             ))}
           </div>
+          <div className="bg-secondary2 my-4" style={{ height: '2px' }}></div>
+          <div className="">
+            <h3 className="font-bold">LANGUAGES</h3>
+            <ul className="mt-3 list-disc pl-6">
+              {RESUME.Languages.map((x) => (
+                <li key={x} className="text-white opacity-80 my-2 pl-1">
+                  {x}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
         <div className="bg-white px-5 pr-10 pt-28">
-          <div className="pt-4 border-t">
+          <div className="bg-primary 4" style={{ height: '2px' }}></div>
+          <div className="pt-4">
             <h3 className="font-bold text-primary">WORK&nbsp;EXPERIENCE</h3>
             {RESUME.Work.map((x) => (
               <div key={x.RoleName} className="mt-4">
@@ -83,37 +96,37 @@ function Resume () {
                 </p>
                 <ul className="mt-1 list-disc pl-8">
                   {x.Highlights.map((y) => (
-                      <li key={y} className="text-sm text-black ">{y}</li>
+                    <li key={y} className="text-sm text-black ">
+                      {y}
+                    </li>
                   ))}
                 </ul>
               </div>
             ))}
           </div>
-          <div className="bg-primary my-4" style={{ height: '1px' }}></div>
+          <div className="bg-primary my-4" style={{ height: '2px' }}></div>
           <div className="">
-            <h3 className="font-bold text-primary">OTHER&nbsp;PROJECTS</h3>
+            <h3 className="font-bold text-primary">PROJECTS</h3>
             {RESUME.OtherProjects.map((x) => (
               <div key={x.Name} className="mt-3">
                 <div className="flex justify-between items-center">
-                  <p className="text-lg text-primary font-semibold">
-                    {x.Name}
-                  </p>
+                  <p className="text-lg text-primary font-semibold">{x.Name}</p>
                   <p className="text-xs italic">{x.Period}</p>
                 </div>
                 <ul className="mt-1 list-disc pl-8">
-                <li className="text-sm text-black">
-                  {x.Description}
-                  {x.link && (
-                    <a
-                      className="text-primary text-sm"
-                      href={x.link}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {x.link}
-                    </a>
-                  )}
-                </li>
+                  <li className="text-sm text-black">
+                    {x.Description}
+                    {x.link && (
+                      <a
+                        className="text-primary text-sm"
+                        href={x.link}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {x.link}
+                      </a>
+                    )}
+                  </li>
                 </ul>
               </div>
             ))}
