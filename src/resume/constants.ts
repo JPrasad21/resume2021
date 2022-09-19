@@ -2,7 +2,7 @@ export const RESUME = {
   Intro: {
     Role: 'Full Stack Developer',
     Description:
-      'Full Stack Developer with 3 years of experience in the field of web development using JavaScript frameworks (Angular 8+, ReactJs, nextJs). A developer who likes to work in a challenging environment to bring out the best solutions.'
+      'Full Stack Developer with 4+ years of experience in the field of web development using JavaScript frameworks (Angular 12+, ReactJs, NextJs, NestJs) and C#. A developer who likes to work in a challenging environment to bring out the best solutions.'
   },
   MyDetails: {
     Name: 'Prasad J',
@@ -22,7 +22,7 @@ export const RESUME = {
     {
       Image: '/assets/location.png',
       Label: 'Location',
-      Value: 'Chennai, Tamil Nadu'
+      Value: 'Chennai, India'
     }
   ],
   Connect: [
@@ -40,11 +40,11 @@ export const RESUME = {
   Skills: [
     'JavaScript',
     'TypeScript',
-    'Angular 8+',
+    'Angular 12+',
     'ReactJs and NextJs',
     'HTML5, CSS3, JQuery',
     'C#',
-    'Python',
+    'NestJs',
     'PostgreSQL'
   ],
   Education: [
@@ -66,19 +66,23 @@ export const RESUME = {
     {
       Period: 'January 2020 - Present',
       CompanyName: 'Botminds Inc',
+      LinkedIn: 'https://www.linkedin.com/company/botminds/',
       Location: 'Chennai',
       RoleName: 'AI Engineer',
       Highlights: [
         'Worked in Table AI feature to Identify and extract essential information from table using Angular and JQuery',
-        "Developed workflow management to keep track of the document's status and assigned user using Angular",
+        'Implemented Okta integration for Single Sign On (SSO) with OIDC method using C# and Angular',
+        'Built Auto derivation library - a post prediction process where customised logics applied to derive new values',
+        'Developed a dashboard widget where the columns, filters can be customised for analytics using C# and Angular',
+        'Implemented document stage management to keep track of the document\'s current stage and user using c# and Angular',
         'Improved product stability and performance to seamlessly load and render documents to provide better user experience',
-        'Worked in developing the SEO friendly enterprise website using NextJs to get maximum reach in marketing campaign',
-        'Optimised queue management system to minimise the failures during document ingestion using Angular and C#'
+        'Worked in developing the SEO friendly enterprise website using NextJs to get maximum reach in marketing campaign'
       ]
     },
     {
       Period: 'June 2018 - December 2019',
       CompanyName: 'Tata Consultancy Services',
+      LinkedIn: 'https://www.linkedin.com/company/tata-consultancy-services/',
       Location: 'Mumbai',
       RoleName: 'Assistant System Engineer',
       Highlights: [
@@ -90,11 +94,11 @@ export const RESUME = {
   ],
   OtherProjects: [
     {
-      Name: 'React Flow',
-      Period: 'Nov 2020 - December 2020',
+      Name: 'Web Based Resume',
+      Period: 'September 2022',
       Description:
-        'Created a drag & drop pipeline builder using ReactJs with the help of react-flow package to automate the data workflow',
-      link: null
+        'Created this resume using ReactJs and downloaded resume as PDF using puppeteer. This can be viewed at ',
+      link: 'https://prasad-resume-2022.surge.sh/'
     },
     {
       Name: 'Vizhithiru App',
@@ -102,17 +106,6 @@ export const RESUME = {
       Description:
         'Created an application for logging and escalating complaints in ReactJs to notify the election department about the common issues',
       link: null
-    },
-    {
-      Name: 'Resume2021',
-      Period: 'March 2021',
-      Description:
-        'Created this resume using ReactJs supporting export PDF feature. This can be viewed at ',
-      link: 'https://prasad-resume-2021.surge.sh/'
     }
   ]
 };
-// {
-//   Name: 'Pitchworks Club',
-//   Description: 'Created a platform to connect startups and investors for efficient fund-raising using reactJs.'
-// },

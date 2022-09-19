@@ -86,9 +86,11 @@ function Resume () {
             {RESUME.Work.map((x) => (
               <div key={x.RoleName} className="mt-4">
                 <div className="flex justify-between items-center">
-                  <p className="text-lg text-primary font-semibold">
-                    {x.CompanyName}
-                  </p>
+                  <a href={x.LinkedIn} target="_blank" rel="noreferrer">
+                    <p className="text-lg text-primary font-semibold">
+                      {x.CompanyName}
+                    </p>
+                  </a>
                   <p className="text-xs italic">{x.Period}</p>
                 </div>
                 <p className="text-sm font-bold mb-1 text-primary">
