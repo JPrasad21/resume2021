@@ -9,7 +9,8 @@ module.exports = {
       outer: '#282c34',
       white: '#fff',
       black: '#000',
-      purple: '#663399'
+      purple: '#663399',
+      hyperlink: '#0000ff'
     },
     extend: {}
   },
